@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const ContactForm = ({ onSubmit }) => {
   const [form, setForm] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    comments: ''
+    firstName: "",
+    lastName: "",
+    email: "",
+    comments: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm(prevForm => ({ ...prevForm, [name]: value }));
+    setForm((prevForm) => ({ ...prevForm, [name]: value }));
   };
 
   const handleSubmit = (e) => {
@@ -51,3 +51,5 @@ const ContactForm = ({ onSubmit }) => {
     </form>
   );
 };
+
+export default ContactForm;

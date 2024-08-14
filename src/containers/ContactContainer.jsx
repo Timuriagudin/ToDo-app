@@ -1,9 +1,9 @@
-import React from 'react';
-import ContactForm from '../components/ContactForm';
+import React from "react";
+import ContactForm from "../components/ContactForm";
 
 const ContactContainer = () => {
   const handleSubmit = (formData) => {
-    console.log('Contact form submitted:', formData);
+    console.log("Contact form submitted:", formData);
     // Here you could send form data to a server
   };
 
@@ -13,3 +13,5 @@ const ContactContainer = () => {
     </div>
   );
 };
+
+export default ContactContainer;
