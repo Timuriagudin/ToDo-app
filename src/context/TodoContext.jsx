@@ -18,9 +18,14 @@ export const TodoProvider = ({ children }) => {
   const removeTodo = (id) => {
     setTodos(todos.filter(todo => todo.id !== id));
   };
+  const editTodo = (id, newText) => {
+    setTodos(todos.map(todo =>
+      todo.id === id ? { ...todo, text: newText } : todo
+    ));
+  };
 
   return (
-    <TodoContext.Provider value={{ todos, addTodo, toggleComplete, removeTodo }}>
+    <TodoContext.Provider value={{ todos, addTodo, toggleComplete, removeTodo, editTodo }}>
       {children}
     </TodoContext.Provider>
   );
