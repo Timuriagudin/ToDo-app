@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Todo Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Author: Timur Iagudin
 
-## Available Scripts
+### Overview
 
-In the project directory, you can run:
+This is a React-based todo application that allows users to manage tasks effectively. The app features a todo list with functionalities to add, edit, complete, and remove tasks. Additionally, it includes a contact form for user inquiries.
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Todo List Management:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Add new tasks.
+  - Edit existing tasks.
+  - Mark tasks as complete or incomplete.
+  - Remove tasks.
+  - Filter tasks by all, completed, or incomplete.
 
-### `npm test`
+- **Contact Form:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - Input first name, last name, email, and comments.
+  - Submit form data.
 
-### `npm run build`
+- **Navigation:**
+  - Horizontal navigation bar to switch between the todo list and contact form views.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: JavaScript library for building user interfaces.
+- **React Router DOM**: For handling routing within the application.
+- **Context API**: For state management across components.
+- **CSS**: For styling the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (Node package manager)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   git clone https://github.com/Timuriagudin/todo.git
+   cd todo
 
-## Learn More
+2. **Install Dependencies:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Run the Development Server:**
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This will start the application on http://localhost:3000.
 
-### Analyzing the Bundle Size
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Todos View:**
 
-### Making a Progressive Web App
+Add new todos using the form at the top.
+Edit tasks by clicking the "Edit" button next to a task.
+Mark tasks as complete/incomplete using the checkbox.
+Remove tasks with the "Remove" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Contact Form:**
 
-### Advanced Configuration
+Fill out the form with your first name, last name, email, and comments.
+Submit the form to simulate sending contact information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Future Improvements
 
-### Deployment
+**Backend Integration:**
+Implement a backend service to persist todos and contact form submissions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**User Authentication:**
+Add user authentication to manage personal todo lists.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Enhanced Styling:**
+Improve the styling and user interface for a better user experience.
