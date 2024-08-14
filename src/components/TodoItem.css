@@ -1,10 +1,19 @@
 .todo-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  .todo-item span {
-    margin: 0 1rem;
-    flex-grow: 1;
-  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.todo-item span {
+  margin: 0 1rem;
+  flex-grow: 1;
+}
+
+.todo-edit-form {
+  display: flex;
+  align-items: center;
+}
+
+.todo-edit-form input {
+  margin-right: 0.5rem;
+}
