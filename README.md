@@ -42,16 +42,16 @@ This is a React-based todo application that allows users to manage tasks effecti
 
 1. **Clone the Repository:**
 
-   git clone https://github.com/Timuriagudin/todo.git
-   cd todo
+   - git clone https://github.com/Timuriagudin/todo.git
+   - cd todo
 
 2. **Install Dependencies:**
 
-npm install
+   - npm install
 
 3. **Run the Development Server:**
 
-npm start
+   - npm start
 
 This will start the application on http://localhost:3000.
 
