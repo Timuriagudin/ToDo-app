@@ -4,7 +4,7 @@ import TodoForm from "../components/TodoForm";
 import { useTodos } from "../context/TodoContext";
 
 const TodosContainer = () => {
-  const { todos, addTodo, toggleComplete, removeTodo } = useTodos();
+  const { todos, addTodo, toggleComplete, removeTodo, editTodo } = useTodos();
 
   return (
     <div>
@@ -13,6 +13,7 @@ const TodosContainer = () => {
         todos={todos}
         onToggleComplete={toggleComplete}
         onRemove={removeTodo}
+        onEdit={editTodo}
       />
     </div>
   );
