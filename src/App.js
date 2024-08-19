@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import TodosContainer from "./containers/TodosContainer";
 import ContactContainer from "./containers/ContactContainer";
+import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
 import { TodoProvider } from "./context/TodoContext";
 import "./App.css";
@@ -17,7 +18,7 @@ const App = () => {
             <Routes>
               <Route path="/todos" element={<TodosContainer />} />
               <Route path="/contact" element={<ContactContainer />} />
-              <Route path="/" element={<h1>Welcome</h1>} />
+              <Route path="/" element={<HomePage />} />
             </Routes>
           </main>
           <Footer />
