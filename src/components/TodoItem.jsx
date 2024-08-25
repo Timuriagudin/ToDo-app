@@ -39,7 +39,7 @@ const TodoItem = ({ todo, onToggleComplete, onRemove, onEdit }) => {
       <button onClick={() => setIsEditing(!isEditing)}>
         {isEditing ? "Cancel" : "Edit"}
       </button>
-      <button onClick={() => onRemove(todo.id)}>Remove</button>
+      <button className="btn-del" onClick={() => onRemove(todo.id)}>Delete</button>
     </div>
   );
 };

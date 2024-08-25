@@ -17,3 +17,6 @@
 .todo-edit-form input {
   margin-right: 0.5rem;
 }
+.btn-del {
+  margin-left: 10px;
+}
