@@ -1,13 +1,24 @@
 .todo-form {
-    display: flex;
-    margin-bottom: 1rem;
-  }
-  
-  .todo-form input {
-    flex-grow: 1;
-    padding: 0.5rem;
-  }
-  
-  .todo-form button {
-    padding: 0.5rem;
-  }
+  display: flex;
+  margin: 30px 100px;
+}
+
+.todo-form input {
+  flex-grow: 1;
+  padding: 0.5rem;
+}
+
+.todo-form button {
+  padding: 0.8rem;
+  background: radial-gradient(circle, #5fb4ff, #32408b);
+  color: white;
+  margin-left: 10px;
+  border-radius: 20%;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.todo-form button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}

@@ -1,16 +1,16 @@
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    background-color: #333;
-  }
-  
-  .nav-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-  }
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background: linear-gradient(to right, #05165b, #3c79d8);
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
