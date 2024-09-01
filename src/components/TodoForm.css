@@ -9,15 +9,14 @@
 }
 
 .todo-form button {
+  width: 90px;
   padding: 0.8rem;
-  background: radial-gradient(circle, #5fb4ff, #32408b);
+  background: #0054ab;
   color: white;
+  border: 1px solid white;
+  border-radius: 9%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
   margin-left: 10px;
-  border-radius: 20%;
-  border-color: #3498db;
-  transition: border-color 0.03s ease, box-shadow 0.03s ease;
-  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
-  border: 0.1px solid #ccc;
 }
 
 .todo-form input:hover {
