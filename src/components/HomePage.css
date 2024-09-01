@@ -28,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ebeaea;
+  background-color: #ffffff;
 }
 
 .login-form {
@@ -41,6 +41,7 @@
   padding: 10px;
   font-size: 16px;
   width: 100%;
+  height: 15px;
 }
 
 .login-form button {
@@ -57,4 +58,8 @@
 .login-form button:hover {
   background-color: #2980b9;
   transform: scale(1.05);
+}
+
+.forgot-password {
+  margin-bottom: 15px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,11 @@ const HomePage = () => {
             placeholder="password"
             required
           />
+          <nav className="forgot-password">
+            <Link to="/" className="forgot-password-link">
+              Forgot password
+            </Link>
+          </nav>
           <button type="submit">Sign in</button>
           <button type="button">Sign up</button>
         </form>
