@@ -4,6 +4,10 @@
   margin: 0px 100px 10px;
 }
 
+.todo-item:hover {
+  background-color: rgb(rgb(17, 34, 193), green, blue, alpha) (182, 243, 255);
+}
+
 .todo-item span {
   margin: 0 1rem;
   flex-grow: 1;

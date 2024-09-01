@@ -3,6 +3,7 @@
   justify-content: space-around;
   padding: 1rem;
   background: linear-gradient(to right, #05165b, #3c79d8);
+  border-bottom: 1px solid black;
 }
 
 .nav-link {

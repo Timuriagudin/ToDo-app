@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background: radial-gradient(circle, #5fb4ff, #32408b);
   }
   
   #root {

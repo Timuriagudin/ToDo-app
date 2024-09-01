@@ -14,8 +14,19 @@
   color: white;
   margin-left: 10px;
   border-radius: 20%;
-  border: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-color: #3498db;
+  transition: border-color 0.03s ease, box-shadow 0.03s ease;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+  border: 0.1px solid #ccc;
+}
+
+.todo-form input:hover {
+  padding: 10px;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.03s ease, box-shadow 0.03s ease;
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.59);
 }
 
 .todo-form button:hover {

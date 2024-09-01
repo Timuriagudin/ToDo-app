@@ -27,6 +27,7 @@ const ContactForm = ({ onSubmit }) => {
         value={form.firstName}
         onChange={handleChange}
         placeholder="First Name"
+        required
       />
       <input
         type="text"
@@ -34,6 +35,7 @@ const ContactForm = ({ onSubmit }) => {
         value={form.lastName}
         onChange={handleChange}
         placeholder="Last Name"
+        required
       />
       <input
         type="email"
@@ -41,12 +43,14 @@ const ContactForm = ({ onSubmit }) => {
         value={form.email}
         onChange={handleChange}
         placeholder="Email"
+        required
       />
       <textarea
         name="comments"
         value={form.comments}
         onChange={handleChange}
         placeholder="Comments"
+        required
       />
       <button type="submit">Submit</button>
     </form>
