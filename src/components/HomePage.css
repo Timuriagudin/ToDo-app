@@ -61,7 +61,10 @@
 }
 
 .forgot-password {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.forgot-password a {
   text-decoration: none;
 }
 
