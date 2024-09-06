@@ -14,7 +14,7 @@
 
 .container {
   display: flex;
-  height: 78.3vh;
+  height: 80.5vh;
 }
 
 .left-section {
@@ -62,4 +62,9 @@
 
 .forgot-password {
   margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.login-form h2 {
+  text-align: center;
 }

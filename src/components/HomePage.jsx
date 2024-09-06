@@ -13,6 +13,7 @@ const HomePage = () => {
       </div>
       <div className="right-section">
         <form className="login-form">
+          <h2>Sign in to your account</h2>
           <input type="email" name="email" placeholder="email" required />
           <input
             type="password"
@@ -21,7 +22,7 @@ const HomePage = () => {
             required
           />
           <nav className="forgot-password">
-            <Link to="/" className="forgot-password-link">
+            <Link to="forgot-password" className="forgot-password-link">
               Forgot password
             </Link>
           </nav>
