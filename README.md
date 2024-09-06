@@ -14,7 +14,6 @@ This is a React-based todo application that allows users to manage tasks effecti
   - Edit existing tasks.
   - Mark tasks as complete or incomplete.
   - Remove tasks.
-  - Filter tasks by all, completed, or incomplete.
 
 - **Contact Form:**
 
