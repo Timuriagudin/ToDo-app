@@ -7,6 +7,15 @@
 .todo-item span {
   margin: 0 1rem;
   flex-grow: 1;
+  font-size: 20px;
+}
+.todo-item:hover {
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.05s ease, box-shadow 0.05s ease;
+  border-color: #ffffff;
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
+  background-color: rgba(153, 214, 255, 0.5);
 }
 
 .todo-edit-form {
