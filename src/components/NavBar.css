@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 0rem 2rem;
   background: linear-gradient(to right, #05165b, #3c79d8);
   border-bottom: 1px solid black;
 }
@@ -11,6 +11,7 @@
   color: #fff;
   text-decoration: none;
   font-size: 1.2rem;
+  margin-right: 200px;
 }
 
 .nav-link:hover {
@@ -18,9 +19,8 @@
 }
 
 .logo {
-  font-size: 1.5rem;
   font-weight: bold;
-  color: #5bbdff;
+  color: lightblue;
   text-decoration: none;
   font-size: 50px;
 }
