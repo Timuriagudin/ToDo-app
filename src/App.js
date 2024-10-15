@@ -9,6 +9,7 @@ import { TodoProvider } from "./context/TodoContext";
 import "./App.css";
 import About from "./components/About";
 import Privacy from "./components/Privacy";
+import Terms from "./components/Terms";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
               <Route path="/contact" element={<ContactContainer />} />
               <Route path="/about" element={<About />} />
               <Route path="/privacy" element= {<Privacy />} />
+              <Route path="/terms" element= {<Terms />} />
             </Routes>
           </main>
           <Footer />
