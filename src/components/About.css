@@ -1,0 +1,13 @@
+.about h1 {
+  text-align: center;
+  margin: 35px;
+}
+
+.about p {
+  margin: 0 60px 0 60px;
+  font-size: large;
+}
+
+.about li{
+  margin-top: 10px;
+}

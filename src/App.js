@@ -7,6 +7,7 @@ import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
 import { TodoProvider } from "./context/TodoContext";
 import "./App.css";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
           <NavBar />
           <main>
             <Routes>
+              <Route path="/" element={<HomePage />} />
               <Route path="/todos" element={<TodosContainer />} />
               <Route path="/contact" element={<ContactContainer />} />
-              <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </main>
           <Footer />
