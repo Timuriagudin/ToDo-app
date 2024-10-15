@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { TodoProvider } from "./context/TodoContext";
 import "./App.css";
 import About from "./components/About";
+import Privacy from "./components/Privacy";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
               <Route path="/todos" element={<TodosContainer />} />
               <Route path="/contact" element={<ContactContainer />} />
               <Route path="/about" element={<About />} />
+              <Route path="/privacy" element= {<Privacy />} />
             </Routes>
           </main>
           <Footer />
